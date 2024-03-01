@@ -1,0 +1,348 @@
+@font-face {
+    font-family: oxanium;
+    src: url(../font/oxanium.TTF);
+}
+
+
+body {
+    background-color: #202742;
+}
+p {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+h2 {
+    color: rgb(179, 134, 252);
+    text-align: center;
+    font-family: oxanium;
+    font-size: 1.6rem;
+    padding-top: 2rem;
+}
+
+img {
+    width: 100%;
+}
+/* ---------------------------------------------------Header--*/
+nav {
+    background-color: transparent;
+}
+.nav-link{
+    color: white;
+}
+
+.navLogo {
+    background-image: url(../img/logoNav.png);
+    width: 52px;
+    height: 43px;
+}
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+.nav-fixed {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #202742;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-body>div {
+    width: 250px;
+}
+.modal-body>div>img {
+    border-radius: 1.5rem;
+}
+.liModal {
+    color:#202742;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    list-style: none;
+}
+
+header>nav>div>div>ul>li:last-child{
+    font-family: oxanium;
+    color: white;
+    text-decoration: none;
+    cursor:pointer
+}
+a{
+    font-family: oxanium;
+    color: white;
+    text-decoration: none;
+}
+
+.link{
+    font-style: italic;
+}
+.link:hover  {
+    color: rgb(255, 174, 0); 
+    
+}
+
+.h3white {
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: oxanium;
+}
+
+/* ---------------------------------------------------Servicios--*/
+.card {
+    width: 18rem;
+    margin: 2rem 1rem;
+    border-radius: 15px;
+}
+.filaServicios {
+    display: flex;
+    justify-content: center;
+}
+
+.card-text {
+    color: #202742c4;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align:start;
+}
+
+.precio {
+    color: #202742;
+    font-size: 1.1rem;
+}
+
+.btn-primary {
+    background-color: rgb(166, 86, 241);
+    border: none;
+    border-radius: 15px;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-family: oxanium;
+}
+/* ---------------------------------------------------Diseño Web--*/
+ul {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+.list-inline-item {
+    width: 64px;
+    height: 64px;
+    background-repeat: no-repeat;
+    margin: 0 1rem;
+}
+
+.visa {
+    background-image: url(../img/iconografia/visa.png);
+}
+.mercadoPago {
+    background-image: url(../img/iconografia/mercadoPago-01.png);
+}
+.mastercard {
+    background-image: url(../img/iconografia/mastercard-01.png);
+}
+
+
+/* ---------------------------------------------------Por qué nos eligen--*/
+
+/* ---------------------------------------------------footer--*/
+footer {
+    height: 460px;
+    background-image: url(../img/footerMB.jpg);
+    
+}
+.pFooter {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+
+
+.msFooter {
+    font-family: oxanium;
+}
+
+.redes {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    margin:10px;
+    
+}
+
+.footerLink:hover{
+    color: rgb(255, 167, 53);
+}
+.nav-link:hover{
+    color: rgb(255, 167, 53);
+}
+
+
+
+.facebook {
+    background-image: url(../img/iconografia/facebook.png);
+}
+.instragram {
+    background-image: url(../img/iconografia/instagram.png);
+}
+.linkedin {
+    background-image: url(../img/iconografia/linkedin.png);
+}
+.footerLink {
+    margin: 0.2rem 0;
+    ;
+    font-size: small;
+
+}
+
+.contenedorLogo {
+    width: 52px;
+    height: 43px;
+}
+
+
+
+
+
+
+/*----------------------------PAGINA DETALLES DE SERVICIOS ---------*/
+
+#detalleProducto {
+    background-color: #ffffff;
+}
+.pdetalleProducto{
+    color: #202742;
+}
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    
+    }
+
+    .thumbnail {
+        background-color: #f0f0f0;
+        width: 45px;
+        height: 45px;
+        cursor: pointer;
+    }
+
+    .mostrarGrande {
+        grid-column: span 5;
+        max-width: 100%;
+    }
+
+    #imagen-grande{
+        max-width: 400px;
+        max-height: 400px;
+    }
+    
+    
+      /* Estilo para mostrar la imagen grande */
+    .modal:target .mostrarGrande {
+        display: block;
+    }
+    
+    .contenedor-video {
+        max-width: 100%; 
+        height: auto; 
+        
+    }
+
+    .cvideo {
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+    .precio {
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    /*----------- CAJA SEO SEM ---*/
+    .caja {
+        display: flex;
+        flex-direction: column;    
+    }
+
+    .cajita {
+        width: 100%;
+        border-radius: 1rem;
+        padding: 1rem;
+        margin-bottom: 10px;
+
+    }
+
+    .cajita>h4 {
+        text-align: center;
+    }
+
+    .cajita1 {
+        background-color: rgba(168, 107, 226, 0.555);
+    }
+    .cajita2 {
+        background-color: rgba(253, 162, 57, 0.521);
+    }
+    .cajita3 {
+        background-color: rgba(253, 57, 188, 0.521);
+    }
+
+    /*--comunity-*/
+    .comunityCombo {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(193, 127, 255, 0.288);
+        border-radius: 1rem;
+        padding: 0.8rem;
+        align-items: center;
+        margin: 10px;
+    }
+
+/*tablet*/
+@media (min-width:760px){
+    
+
+    .caja {
+        flex-direction: row;    
+    }
+    .cajita2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+/*desktop*/
+@media (min-width:992px){
+.nav-fixed{
+    top: 0;
+    bottom: auto;
+
+}
+#diseñoWeb {
+    padding: 3rem;
+}
+
+.boton {
+    justify-content: start;
+}
+
+footer {
+    background-image: url(../img/footerDK-01-01.jpg);
+    height: 300px;
+}
+    }

@@ -1,0 +1,17 @@
+Componentes de Bootstraps utilizados:
+-Modal: para los datos del alumno
+-Acordion: en la seccion de por qué elegirnos en el index.html
+-Cards: para los servicios en el index.html
+-Elementos para formulario. 
+-carrusel: para el header y para el detalle de producto en el index.html
+-Toasts: para el botón de "adquirir" presentes en las otras páginas que no son el index.html
+-NavBar. 
+
+Cuantos y cuáles son los breakpoints: 
+-Celulares (por defecto): hasta 760px de ancho. 
+-Tablets (md): desde 760 px hasta 992 px de ancho
+-Desktop (lg): de 992px en adelante de ancho
+
+Consigna elegida para las páginas de los productos: 
+-En todas las páginas utilicé display:grid para la galería de las imágenes. 
+-Ademas utilicé display flex en algunas otras como para generar los combos.

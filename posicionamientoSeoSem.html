@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/misEstilos.css" rel="stylesheet">
+    <title>MagicScript | Posicionamiento SEO SEM</title>
+</head>
+<body>
+<!------------------------------------------------------------HEADER-->
+<header class="container-fluid">
+    <nav class="navbar navbar-expand-lg nav-fixed">
+      
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><div class="navLogo"></div></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Boton de navegacion">
+            <span class="navbar-toggler-icon navbar-dark"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <li><a class="nav-link" href="index.html#nosotros">Sobre Nosotros</a></li>
+                    <li><a class="nav-link" href="index.html#servicios">Servicios</a></li>
+                    <li><a class="nav-link" href="index.html#elegirnos">Por qué elegirnos</a></li>
+                    <li><a class="nav-link" href="index.html#contacto">Contacto</a></li>
+                    <li class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      Autor
+                      
+                  </li>
+  
+                    
+                </ul>
+                
+        </div>
+        
+        </div>
+        
+    </nav>
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Datos del autor</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+                <div>
+                  <img src="img/fotoAutor.jpg" alt="">
+                </div>
+                <ul>
+                  <li class="liModal"><strong>Nombre y Apellido:</strong>Maria Macarena Merlo</li>
+                  <li class="liModal"><strong>Email:</strong><a href="mailto:macarena.merlo@gmail.com" class="liModal"> macarena.merlo@gmail.com</a></li>
+                  <li class="liModal"><strong>Materia:</strong>Interacción con dispositivos móviles</li>
+                  <li class="liModal"><strong>Carrera:</strong>Diseño y Programación Web</li>
+                  <li class="liModal"><strong>Comisión</strong>DWT2AV</li>
+                  <li class="liModal"><strong>Turno:</strong>Tarde</li>
+                  <li class="liModal"><strong>Año:</strong>2023</li>
+                  <li class="liModal"><strong>Cuatrimestre:</strong>segundo</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+  </div>
+    <article class="row "> 
+      
+        <div class="col ">
+          <!--carrusel desktop-->
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Diapositiva 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Diapositiva 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Diapositiva 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/bannerMS.jpg" class="d-lg-block d-none w-100" alt="MagicScript"> 
+                        <img src="img/mobile/magicScript.jpg" alt="MagicScript" class="d-lg-none w-100">
+                        <div class="carousel-caption d-md-block d-none">
+                            <p class="text-center">Rompe la barrera de lo ordinario y haz realidad lo extraordinario</p>
+                  
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/potenciamos.jpg" class="d-none d-lg-block w-100" alt="MagicScript potencia tu marca">
+                        <img src="img/mobile/potenciamosMB.jpg" class="d-lg-none w-100" alt="Potenciamos tu marca">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/solucionesInnovadora.jpg" class="d-none d-lg-block w-100" alt="soluciones innovadoras">
+                        <img src="img/mobile/solucionesInnovadorasMB.jpg" class="d-lg-none w-100" alt="soluciones innovadoras">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>  
+             <!--mobile-->
+  
+  
+            <div id="carouselExampleCaption" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Diapositiva 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Diapositiva 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Diapositiva 3"></button>
+                    </div>
+            
+            </div>
+        </div>    
+    </article>
+    
+  </header>
+    <main id="detalleProducto" class="px-lg-5">
+        <section class="container-fluid " >
+            
+            <div class="row pt-4">
+                <div class="col-lg-5 col-md-6">
+                    
+                    <div class="gallery">
+                        <div class="mostrarGrande">
+                            <img id="imagen-grande" src="img/paginaDiseñoWeb/template4.jpg" alt="Imagen Grande">
+                        </div>
+                        <div class="thumbnail" onclick="mostrarImagen('img/paginaSeoSEM/seoSem1.jpg')">
+                          <img src="img/paginaSeoSEM/seoSem1-02.jpg" alt="template2">
+                        </div>
+                        <div class="thumbnail" onclick="mostrarImagen('img/paginaSeoSEM/seoSem2.jpg')">
+                          <img src="img/paginaSeoSEM/seoSem2-02.jpg" alt="template2">
+                        </div>
+                        <div class="thumbnail" onclick="mostrarImagen('img/paginaSeoSEM/seoSem3.jpg')">
+                            <img src="img/paginaSeoSEM/seoSem3-02.jpg" alt="template2">
+                          </div>
+                        
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6">
+                   <h2 class="text-lg-start">Posicionamiento SEO y SEM</h2>
+                   <p class="pdetalleProducto precio">100 U$D en adelante</p>
+
+
+                   <p class="pdetalleProducto"><strong>Optimización de Motores de Búsqueda (SEO):</strong> Mejoramos la visibilidad de tu sitio web en los resultados de búsqueda orgánica, aumentando tu tráfico y presencia en línea.</p>
+                   <p class="pdetalleProducto"> <strong>Marketing en Motores de Búsqueda (SEM)</strong>: Creamos campañas publicitarias efectivas que te colocan en lugares destacados de los motores de búsqueda, generando más clics y conversiones.</p>
+                
+                   <button type="button" class="btn btn-primary mb-2" id="liveToastBtn">Adquirir</button>
+
+                    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                        <div class="toast-header">
+                        <strong class="me-auto">Servicio agregado al carrito</strong>
+                        <small>MagicScript</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Cerrar"></button>
+                        </div>
+                        <div class="toast-body">
+                        ¡Buena elección! Agregaste tu servicio con éxito
+                        </div>
+                    </div>
+                    </div>
+                   <a class="btn btn-primary mb-2 text-center" href="index.html#contacto" >Pedir cotización personalizada</a>
+                   
+                </div>
+            </div>
+            
+        </section>
+        
+        
+        <section id="descripcion" class="container-fluid ">
+            <h2 class="text-lg-start">Descripción</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="pdetalleProducto">Servicios de SEO y SEM para Aumentar tu Presencia en Línea</h3>
+
+                    <p class="pdetalleProducto"> ¿Quieres que tu negocio destaque en Internet? ¡Estás en el lugar correcto! Nuestros <em>expertos en SEO y SEM están aquí para ayudarte a alcanzar tus metas digitales</em>.</p>
+                    <div class="row my-4 mx-2">
+                        <div class="col-12 col-md-6 mt-4">
+                            <h4>SEO básico:</h4>
+                            <ul class="pdetalleProducto mx-md-5">
+                                <li>Optimización de títulos y descripciones de página.</li>
+                                <li>Configuración de etiquetas de encabezado.</li>
+                                <li>Optimización de imágenes.</li>
+                                <li>Configuración de archivo robots.txt y sitemap.xml.</li>
+                                <li>Registro y verificación en Google Search Console.</li>
+                            </ul> 
+                        </div>
+                        <div class="col-12 col-md-6 mt-4">
+                            <h4>SEM básico:</h4>
+                            <ul class="pdetalleProducto mx-md-5">
+                                <li>Configuración de campañas de anuncios en Google Ads.
+                                    Investigación de palabras clave básica.</li>
+                                <li>Creación de anuncios de texto simples.</li>
+                                <li>Seguimiento básico de conversiones.</li>
+                            </ul> 
+                        </div>
+                    </div> 
+                    
+                    <p class="pdetalleProducto pb-4 text-sm"><strong> Nota:</strong>  Los servicios mínimos de SEO y SEM tienen un costo fijo de $100 USD. Para necesidades más específicas o personalizadas, contáctanos para obtener una cotización personalizada. </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="seo">
+                        <h3 class="text-center">SEO</h3>
+                        <article class="caja">
+                            <article class="cajita cajita1">
+                                <h4>QUÉ</h4>
+                                <p class="pdetalleProducto">Optimización para aparecer en los primeros resultados de búsqueda.</p>
+                            </article>
+                            <article class="cajita cajita2">
+                                <h4>POR QUÉ</h4>
+                                <p class="pdetalleProducto">Aumenta visibilidad y tráfico relevante al sitio web.</p>
+                            </article>
+                            <article class="cajita cajita3">
+                                <h4>CÓMO</h4>
+                                <p class="pdetalleProducto">Mejora de contenido y estructura para motores de búsqueda.</p>
+                            </article>
+                        </article>
+                    </div>
+                    <div class="seo">
+                        <h3 class="text-center">SEM</h3>
+                        <article class="caja">
+                            <article class="cajita cajita1">
+                                <h4>QUÉ</h4>
+                                <p class="pdetalleProducto">Publicidad en buscadores para promocionar un sitio web.</p>
+                            </article>
+                            <article class="cajita cajita2">
+                                <h4>POR QUÉ</h4>
+                                <p class="pdetalleProducto"> Aumenta la visibilidad y la conversión de usuarios interesados.</p>
+                            </article>
+                            <article class="cajita cajita3">
+                                <h4>CÓMO</h4>
+                                <p class="pdetalleProducto">A través de campañas de pago por clic (PPC) en plataformas como Google Ads, Bing Ads, etc.</p>
+                            </article>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="container-fluid">
+        <div class="row mt-3">
+        <div class="col text-center d-flex flex-column align-items-center">
+            <div class="navLogo">
+            </div>
+            <p class="text-center msFooter">MagicScript</p>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-12 col-lg-6">
+            <div class=" d-flex justify-content-center">
+            <a href="https://www.facebook.com/" class="redes facebook d-block" ></a>
+            <a href="https://www.instagram.com/" class="redes instragram d-block"></a>
+            <a href="https://www.linkedin.com/" class="redes linkedin d-block"></a>  
+          </div>
+          <p class="pFooter text-center">contacto@magicScript.com</p>
+          <p class="pFooter text-center">+5492235411662</p>
+
+          <p class="pFooter text-center">&copy; 2023 MagicScript. Todos los derechos reservados.</p>
+          
+          
+        
+        </div>
+        
+        
+        <div class="col-12 col-lg-6 ">
+          <div class="text-center"> 
+            <a class="nav-link footerLink" href="index.html#elegirnos">Por qué elegirnos</a>
+            <a class="nav-link footerLink" href="index.html#contacto">Contacto</a>
+            <a class="nav-link footerLink" href="diseñoWeb.html">Diseño Web</a>
+            <a class="nav-link footerLink" href="desarrolloWeb.html">Desarrollo Web</a>
+            <a class="nav-link footerLink" href="posicionamientoSeoSem.html">SEO y SEM</a>
+            <a class="nav-link footerLink" href="community.html">Community Manager</a>
+            <a class="nav-link footerLink" href="branding.html">Branding</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/myJS.js"></script> 
+</body>
+</html>

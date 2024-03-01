@@ -1,0 +1,10 @@
+Alumna: María Macarena Merlo   
+Carrera: Diseño y Programación Web 
+Materia: Interacción con dispositivos móviles.
+Año: 2023
+Cuatrimestre: segundo
+Comisión: DWT2AV
+Turno: tarde
+Caracter de entrega: examen FINAL.
+fecha de mesa de examen: 5.3.2024
+Dirección  del sitio Web: 
